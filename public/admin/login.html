@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ورود مدیر | Elf crafts</title>
+  <meta name="theme-color" content="#10241c">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/images/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="login-page">
+  <main class="login-card">
+    <div class="brand">
+      <img src="/images/mark.svg" alt="">
+      <span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span>
+    </div>
+    <h1>ورود نگهبان کارگاه</h1>
+    <p class="lede">این‌جا فقط مدیر دست‌سازه‌ها، دسته‌ها و سفارش‌ها را می‌بیند.</p>
+    <div id="setup" class="setup" hidden>
+      <strong>ورود اول، فقط روی همین رایانه</strong>
+      <p>نام کاربری: <code>admin</code></p>
+      <p>رمز: <code>Silverleaf1404</code></p>
+      <p>بعد از ورود، از بخش «ورود مدیر» رمز را عوض کن. تا وقتی رمز اولیه باشد، این راهنما دیده می‌شود.</p>
+    </div>
+    <form id="login">
+      <label class="field"><span>نام کاربری</span><input name="username" autocomplete="username" required></label>
+      <label class="field"><span>رمز</span>
+        <span class="pass-wrap">
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button type="button" id="toggle-pass">نمایش</button>
+        </span>
+      </label>
+      <p class="form-error" id="err" role="alert"></p>
+      <button class="btn btn-gold" type="submit">ورود به کارگاه</button>
+    </form>
+    <a class="back-link" href="/">بازگشت به فروشگاه</a>
+  </main>
+  <script src="/js/login.js"></script>
+</body>
+</html>

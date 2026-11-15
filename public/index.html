@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Elf crafts | دست‌سازه‌های اِلفی</title>
+  <meta name="description" content="فروشگاه دست‌سازه‌ها با حال‌وهوای جنگل و ظرافت الفی. گردنبند، گوشواره، دستبند و اکسسوری مو.">
+  <meta name="theme-color" content="#12261f">
+  <link rel="icon" href="/images/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip" href="#content">رفتن به محتوا</a>
+  <header class="site-header">
+    <div class="announce">بسته‌بندی کتانی · ارسال آرام به سراسر ایران</div>
+    <div class="nav-bar wrap">
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="باز کردن منو" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16M4 12h16M4 17h12" stroke-linecap="round"/></svg>
+      </button>
+      <a class="logo" href="/">
+        <img src="/images/mark.svg" alt="" width="40" height="40">
+        <span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span>
+      </a>
+      <nav class="desk-nav" aria-label="اصلی">
+        <a href="/" data-nav="home">خانه</a>
+        <a href="/shop.html" data-nav="shop">فروشگاه</a>
+        <a href="/about.html" data-nav="about">کارگاه</a>
+      </nav>
+      <a class="cart-link" href="/cart.html" aria-label="سبد خرید">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 7h12l-1 12H7L6 7z" stroke-linejoin="round"/><path d="M9 7V6a3 3 0 0 1 6 0v1" stroke-linecap="round"/></svg>
+        <span class="cart-count" hidden>0</span>
+      </a>
+    </div>
+  </header>
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-top">
+      <strong dir="ltr">Elf crafts</strong>
+      <button class="icon-btn light" id="drawer-close" type="button" aria-label="بستن منو">×</button>
+    </div>
+    <nav class="drawer-nav" aria-label="موبایل">
+      <a href="/">خانه</a>
+      <a href="/shop.html">فروشگاه</a>
+      <a href="/about.html">کارگاه</a>
+      <a href="/cart.html">سبد خرید</a>
+    </nav>
+    <p class="drawer-note">دست‌سازه‌هایی برای دخترانی که جنگل را دوست دارند.</p>
+  </div>
+  <main id="content">
+    <section class="hero">
+      <div class="hero-visual">
+        <img src="/images/hero.svg" alt="جنگل مه‌آلود با نور ماه و یک گردنبند برگی">
+        <div class="hero-copy">
+          <h1>درخشش مهتاب روی برگ‌های نقره</h1>
+          <p class="lede">اکسسوری‌های دست‌ساز برای دخترانی که آرامش برگ، گرمای طلا و ظرافت الف‌گونه را دوست دارند.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="/shop.html">دیدن دست‌سازه‌ها
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c4 6 8 8 8 13a8 8 0 0 1-16 0c0-5 4-7 8-13z"/></svg>
+            </a>
+            <a class="btn btn-line" href="/about.html">قصهٔ کارگاه</a>
+          </div>
+          <ul class="hero-points">
+            <li>دست‌ساز</li>
+            <li>بسته‌بندی با دقت</li>
+            <li>هماهنگی پس از سفارش</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">راه‌های جنگل</p>
+          <h2>دسته‌ها</h2>
+        </div>
+      </div>
+      <div id="mosaic" class="mosaic" aria-busy="true"></div>
+    </section>
+
+    <section class="wrap section" style="padding-top:0">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">این مه</p>
+          <h2>برگزیده‌ها</h2>
+        </div>
+        <a class="text-link" href="/shop.html">همهٔ دست‌سازه‌ها</a>
+      </div>
+      <div id="featured" class="grid cols-4"></div>
+    </section>
+
+    <section class="band">
+      <div class="wrap band-grid">
+        <article>
+          <span>۰۱</span>
+          <h3>دست‌ساز</h3>
+          <p>هر قطعه در کارگاه شکل می‌گیرد؛ رگ برگ، قلاب و گره، یکی‌یکی.</p>
+        </article>
+        <article>
+          <span>۰۲</span>
+          <h3>نزدیک طبیعت</h3>
+          <p>مروارید رودخانه، چوب گردو، نخ ابریشم و فلز با روکش طلایی.</p>
+        </article>
+        <article>
+          <span>۰۳</span>
+          <h3>رسیدن آرام</h3>
+          <p>بعد از ثبت سبد هماهنگ می‌کنیم و بسته را در پارچهٔ کتانی می‌فرستیم.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section story">
+      <div>
+        <p class="eyebrow">کارگاه</p>
+        <h2>جایی میان مه و زر</h2>
+        <p>دست‌سازه‌های اِلفی از خم برگ، پیچ پیچک و نوری که از لای شاخه‌ها می‌چکد شروع می‌شود. حال‌وهوایش نزدیک جنگل‌های مه‌آلود است: آرام، طلایی، و کمی الف‌گونه.</p>
+        <a class="btn btn-forest" href="/about.html">خواندن قصه</a>
+      </div>
+      <img src="/images/about.svg" alt="برگ، مروارید و پارچهٔ کتانی روی میز کارگاه">
+    </section>
+
+    <section class="wrap" style="padding-bottom:48px">
+      <div class="cta-banner">
+        <div>
+          <p class="eyebrow">برای هدیه یا برای خودت</p>
+          <h2>یک انتخاب کوچک، یک درخشش آرام</h2>
+        </div>
+        <a class="btn btn-gold" href="/shop.html">انتخاب دست‌سازه</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="logo footer-logo" href="/">
+          <img src="/images/mark.svg" alt="" width="36" height="36">
+          <span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span>
+        </a>
+        <p>دست‌سازه‌هایی با مه برگ، نور طلایی و آرامش جنگل.</p>
+      </div>
+      <div>
+        <h2>گشت</h2>
+        <a href="/shop.html">فروشگاه</a>
+        <a href="/about.html">داستان کارگاه</a>
+        <a href="/cart.html">سبد</a>
+      </div>
+      <div>
+        <h2>سفارش</h2>
+        <p>پرداخت هماهنگ می‌شود؛ پس از ثبت سبد برای تأیید تماس می‌گیریم.</p>
+        <a href="/admin/login.html">ورود مدیر</a>
+      </div>
+    </div>
+    <div class="footer-bottom wrap">© <span id="year"></span> Elf crafts</div>
+  </footer>
+  <noscript><p class="wrap">برای دیدن دست‌سازه‌ها جاوااسکریپت را روشن کن.</p></noscript>
+  <script src="/js/icons.js"></script>
+  <script src="/js/store.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>

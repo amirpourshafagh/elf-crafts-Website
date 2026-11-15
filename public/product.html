@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>دست‌سازه | Elf crafts</title>
+  <meta name="theme-color" content="#12261f">
+  <link rel="icon" href="/images/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="shop">
+  <a class="skip" href="#content">رفتن به محتوا</a>
+  <header class="site-header">
+    <div class="announce">بسته‌بندی کتانی · ارسال آرام به سراسر ایران</div>
+    <div class="nav-bar wrap">
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="باز کردن منو" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16M4 12h16M4 17h12" stroke-linecap="round"/></svg>
+      </button>
+      <a class="logo" href="/"><img src="/images/mark.svg" alt="" width="40" height="40"><span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span></a>
+      <nav class="desk-nav" aria-label="اصلی">
+        <a href="/" data-nav="home">خانه</a>
+        <a href="/shop.html" data-nav="shop">فروشگاه</a>
+        <a href="/about.html" data-nav="about">کارگاه</a>
+      </nav>
+      <a class="cart-link" href="/cart.html" aria-label="سبد خرید">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 7h12l-1 12H7L6 7z" stroke-linejoin="round"/><path d="M9 7V6a3 3 0 0 1 6 0v1" stroke-linecap="round"/></svg>
+        <span class="cart-count" hidden>0</span>
+      </a>
+    </div>
+  </header>
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-top"><strong dir="ltr">Elf crafts</strong><button class="icon-btn light" id="drawer-close" type="button" aria-label="بستن منو">×</button></div>
+    <nav class="drawer-nav" aria-label="موبایل">
+      <a href="/">خانه</a><a href="/shop.html">فروشگاه</a><a href="/about.html">کارگاه</a><a href="/cart.html">سبد خرید</a>
+    </nav>
+    <p class="drawer-note">دست‌سازه‌هایی برای دخترانی که جنگل را دوست دارند.</p>
+  </div>
+  <main id="content" class="wrap" style="padding-top:22px">
+    <div class="pdp" id="pdp"></div>
+    <section id="related-wrap" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">کنار همین مسیر</p><h2>دست‌سازه‌های هم‌خانواده</h2></div>
+      </div>
+      <div class="grid" id="related"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="logo footer-logo" href="/"><img src="/images/mark.svg" alt="" width="36" height="36"><span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span></a>
+        <p>دست‌سازه‌هایی با مه برگ، نور طلایی و آرامش جنگل.</p>
+      </div>
+      <div><h2>گشت</h2><a href="/shop.html">فروشگاه</a><a href="/about.html">داستان کارگاه</a><a href="/cart.html">سبد</a></div>
+      <div><h2>سفارش</h2><p>پس از ثبت سبد برای تأیید تماس می‌گیریم.</p><a href="/admin/login.html">ورود مدیر</a></div>
+    </div>
+    <div class="footer-bottom wrap">© <span id="year"></span> Elf crafts</div>
+  </footer>
+  <script src="/js/icons.js"></script>
+  <script src="/js/store.js"></script>
+  <script src="/js/product.js"></script>
+</body>
+</html>

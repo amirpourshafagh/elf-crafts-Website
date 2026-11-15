@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>پنل کارگاه | Elf crafts</title>
+  <meta name="theme-color" content="#10241c">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/images/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+  <div class="admin-shell">
+    <aside class="side" id="side">
+      <a class="brand" href="/">
+        <img src="/images/mark.svg" alt="" width="44" height="44">
+        <span><strong dir="ltr">Elf crafts</strong><small>دست‌سازه‌های اِلفی</small></span>
+      </a>
+      <nav aria-label="پنل">
+        <button type="button" data-view="dash">نمای کلی</button>
+        <button type="button" data-view="products">دست‌سازه‌ها</button>
+        <button type="button" data-view="cats">دسته‌ها</button>
+        <button type="button" data-view="orders">سفارش‌ها</button>
+        <button type="button" data-view="settings">ورود مدیر</button>
+      </nav>
+      <a class="side-back" href="/">بازگشت به فروشگاه</a>
+    </aside>
+    <div class="side-mask" id="side-mask" hidden></div>
+    <div class="admin-main">
+      <header class="admin-top">
+        <button class="btn btn-ghost" id="side-toggle" type="button">منو</button>
+        <h1 id="view-title">نمای کلی</h1>
+        <button class="btn btn-ghost" id="logout" type="button">خروج</button>
+      </header>
+      <div class="view" id="view"></div>
+    </div>
+  </div>
+  <script src="/js/icons.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>
